@@ -58,6 +58,9 @@ source mandelbrot_plot.tcl
 ### 4. You're all set!
 You can now run synthesis and implementation 🎉
 
+### 5. Setup the board
+Plug the basys3 to your device and your VGA monitor. In Vivado click on program device and enjoy !
+
 ## Quick overview
 
 *coming soon*
@@ -85,6 +88,9 @@ The architecture follows a clear modular design, from the button inputs to the V
 
 #### Display on a VGA monitor
 ![Exemple](images/mandelbrotSet.jpg)
+
+#### Zoom on the coordinate (-0.8, 0.15)
+![Exemple](images/20260520_165601.jpg)
 
 ## Road map
 
