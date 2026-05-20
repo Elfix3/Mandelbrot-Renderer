@@ -1,5 +1,5 @@
 # A Mandelbrot Set story :  FPGA based
----
+
 > Real-time hardware rendering of the Mandelbrot set based on the Basys3 FPGA and a VGA monitor.
 > Project based on Vivado and VHDL
 
@@ -7,7 +7,7 @@
 
 
 ## Mandelbrot Set
----
+
 The Mandelbrot set contains all complex numbers c for which the following iterative sequence remains bounded:
 
 $$
@@ -28,26 +28,26 @@ With Re being the real part, and Im being the imaginary part. Each point in the 
 
 
 ## Get started 
----
+
 
 *coming soon*
 
 ## Quick overview
----
+
 *coming soon*
 
 ## Architecture
----
+
 The architecture follows a clear modular design, from the button inputs to the VGA outputs.
 
 ![Architecture](images/Architecture.svg)
 
 ## Results 
----
+
 
 
 #### A few figures
----
+
 
 | Metrics    | Value     |
 | ---------- | --------- |
@@ -61,21 +61,21 @@ The architecture follows a clear modular design, from the button inputs to the V
 ![Exemple](images/mandelbrotSet.jpg)
 
 ## Road map
----
+
 
 ### To do
----
+
 - [ ] 🔴 Add more calculations unit to the frame processing module
 - [ ] 🟠 UART debugging interface
 - [ ] 🟠 Memoryless real time rendering
 - [ ] 🟢 Merge to a a higher fixed point resolution calculation
 ###  In progress
----
+
 - [ ] 🟠 Improve the zoom functionalities (zoom feature non stable for high zoom levels)
 - [ ] 🟠 Improve the documentation quality
 
 ### Done
----
+
 - [x] Hardware testing on the Basys3
 - [x] Debug of the timing closures
 - [x] Design of the top level module and connexion with all the signals
