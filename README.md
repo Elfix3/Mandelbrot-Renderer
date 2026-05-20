@@ -27,10 +27,36 @@ With Re being the real part, and Im being the imaginary part. Each point in the 
 
 
 
-## Get started 
+## Get started
 
+### 1. Clone
 
-*coming soon*
+Open PowerShell in your Vivado projects folder and run:
+
+```bash
+git clone https://github.com/Elfix3/Mandelbrot-Renderer.git
+cd Mandelbrot-Renderer
+```
+
+### 2. Recreate the Vivado project
+
+Launch Vivado → **Window → Tcl Console** and run:
+
+```tcl
+cd "C:/path/to/your/Mandelbrot-Renderer"
+source mandelbrot_plot.tcl
+```
+
+> Wait for the script to complete. This will generate a `mandelbrot_plot/` folder.
+
+### 3. Open the project
+
+1. In Vivado, click **Open Project**
+2. Navigate to `Mandelbrot-Renderer/mandelbrot_plot/`
+3. Select `mandelbrot_plot.xpr`
+
+### 4. You're all set!
+You can now run synthesis and implementation 🎉
 
 ## Quick overview
 
