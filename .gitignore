@@ -1,0 +1,29 @@
+# Vivado generated files
+*.jou
+*.log
+*.str
+*.mif
+
+# Project files (recréables via le script TCL)
+*.xpr
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/utils_1/
+*.gen/
+
+# Bitstream et fichiers de programmation
+*.bit
+*.bin
+*.ltx
+
+# SDK/Vitis
+*.sdk/
+*.hdf
+*.xsa
+
+# OS
+.DS_Store
+Thumbs.db

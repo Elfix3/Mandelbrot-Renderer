@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="vga_controller_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="vga_controller" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="4,192,981.988 ns"></ZoomStartTime>
+      <ZoomEndTime time="4,193,018.989 ns"></ZoomEndTime>
+      <Cursor1Time time="4,192,999.138 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="183"></NameColumnWidth>
+      <ValueColumnWidth column_width="93"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/vga_controller/clk_25MHz" type="logic">
+      <obj_property name="ElementShortName">clk_25MHz</obj_property>
+      <obj_property name="ObjectShortName">clk_25MHz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller/V_Count" type="other">
+      <obj_property name="ElementShortName">V_Count</obj_property>
+      <obj_property name="ObjectShortName">V_Count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller/H_Count" type="other">
+      <obj_property name="ElementShortName">H_Count</obj_property>
+      <obj_property name="ObjectShortName">H_Count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller/Display_Active" type="logic">
+      <obj_property name="ElementShortName">Display_Active</obj_property>
+      <obj_property name="ObjectShortName">Display_Active</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller/incrAddr" type="logic">
+      <obj_property name="ElementShortName">incrAddr</obj_property>
+      <obj_property name="ObjectShortName">incrAddr</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller/addr" type="array">
+      <obj_property name="ElementShortName">addr[18:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[18:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
